@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>COLEGIO DOMINGO SANTA MARÍA - PUERTO MONTT</title>
+	<title>Colegio</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	
 	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
 	<link href="css/main-randy.css" rel="stylesheet" media="screen">
 	<link href="css/header.css" rel="stylesheet" media="screen">
@@ -18,13 +18,24 @@
 	<!--[if IE]>
 	<script src="js/ie9.js"></script>
 	<![endif]-->
+	<script type="text/javascript">
+		$(window).scroll(function() {    
+		    var scroll = $(window).scrollTop();
+
+		    if (scroll >= 100) {
+		        $("#header").addClass("chevron");
+		    } else {
+		        $("#header").removeClass("chevron");
+		    }
+		});
+	</script>
 </head>
 
 <body class="home page" id="contacto">
 	<div class="wrapper">
 
 		<!-- HEADER - NUEVO -->
-		<header id="header" class="header chevron clearfix navbar-fixed-top">
+		<header id="header" class="header clearfix navbar-fixed-top">
 
 			<div class="cajon">
 
@@ -66,9 +77,9 @@
 							<div class="nav-toggler-movil">
 
 								<div id="mobile-logo">
-									<a class="clearfix" href="#">
+									<a class="clearfix" href="index.html">
 										<img src="img/logo.svg">
-										<h4>COLEGIO <strong>DOMINGO<br>SANTA MARÍA</strong> PUERTO MONTT</h4>													
+										<h4>COLEGIO <strong>DOMINGO<br>SANTA MARÍA</strong> LA SERENA</h4>													
 									</a>
 
 									<div class="triangulo"></div>
@@ -149,7 +160,7 @@
 					<h4>
 						COLEGIO<br><strong>DOMINGO SANTA MARÍA</strong>
 					</h4>	
-					<span>PUERTO MONTT</span>														
+					<span>LA SERENA</span>														
 				</a>
 
 				<div class="triangulo"></div>
@@ -160,33 +171,11 @@
 		<!--main-->
 		<div id="main" class="clearfix">
 		
-			<!-- TITULO DE PAGINA INTERIOR -->
-			<div class="titulo-seccion">
-
-				<div class="container clearfix">
-					<div class="row">
-
-						<div class="col-sm-10 col-xs-10 btn-titu-pagina">
-							<div class="row">
-								<div class="col-sm-3 col-xs-12">
-									<h4><a href="guias.html">< Anterior</a></h4>
-								</div>
-								<div class="col-sm-9 col-xs-12">
-									<h2>CONTACTO</h2>
-								</div>							
-							</div>
-						</div>
-
-						<!--div class="col-sm-8 titu-pagina">
-							<h2>NOTICIAS</h2>
-						</div-->
-
-						<div class="col-sm-2 col-xs-2 icono-pagina">
-							<img src="img/iconos/ico-guias.svg">
-						</div>
-					</div>
-				</div>
-			</div><!-- /FIN TITULO DE PAGINA INTERIOR -->
+			<!-- BANNER-PAGINA-INTERIO -->
+			<div class="img-seccion">
+				<div class="cont-img"></div>
+				<img src="img/01.jpg">
+			</div><!-- /FIN BANNER-PAGINA-INTERIOR -->
 
 			<div class="intro-page">
 				<div class="container">
@@ -198,7 +187,7 @@
 
 				<div class="col-sm-7 col-xs-12">
 
-					<h2 class="upper titulo-tres">Contáctanos</h2>
+					<h2 class="upper titulo-tres">· Contáctanos ·</h2>
 
 					<form id="form-contacto" class="shadow">
 
@@ -254,7 +243,7 @@
 
 				<div class="col-xs-12 como-llegar">
 					<div class="row">
-					<h2 class="upper titulo-tres">Cómo Llegar</h2>				
+					<h2 class="upper titulo-tres">· Cómo Llegar ·</h2>				
 
 					<div class="panel-group" id="destino" role="tablist" aria-multiselectable="true">
 
@@ -317,7 +306,7 @@
 								<h4>
 									COLEGIO<br><strong>DOMINGO SANTA MARÍA</strong>
 								</h4>	
-								<span>PUERTO MONTT</span>														
+								<span>LA SERENA</span>														
 							</a>
 						</div>
 					</div>	
@@ -347,7 +336,7 @@
 					</div>
 				</div>
 			</div>			
-		</footer><!--/FIN FOOTER - NUEVO -->
+		</footer><!--/FIN FOOTER - NUEVO --> 
 
 	</div>
 </body>
