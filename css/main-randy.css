@@ -469,7 +469,6 @@ a {
 #noticias .detalle p{
   color: #555;
   font-size: 14px;
-  font-family: "Lato", Lato, sans-serif;
 }
 #noticias .detalle .ver-mas{
   display: block;
@@ -655,11 +654,11 @@ a {
   height: 220px;
   display: block;
   overflow: hidden;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 15px 0px;
   position: relative;
 }
 #extra{
-  padding: 50px 50px 50px 15px;
+  padding: 50px 15px 50px 30px;
 }
 #extra .taller img {
     position: absolute;
@@ -683,7 +682,7 @@ a {
   border: 2px solid #FFF;
   position: relative;
   letter-spacing: 2px;
-  margin: 16%;
+  margin: 20%;
   font-size: 18px;
   font-weight: 600;
 }
@@ -1268,9 +1267,6 @@ a[aria-expanded="false"] img{
   transition: all 0.3s;
   transition-timing-function: ease-out;
 }
-#ciclos .panel-body p{
-  font-family: "Lato"
-}
 
 #menu-admision{
   margin: 0px 0px 80px 0px;
@@ -1329,7 +1325,6 @@ a[aria-expanded="false"] img{
   list-style: none;
   line-height: 24px;
   font-size: 18px;
-  font-family: "Lato";
   color: #333;
 }
 .extra-info{
@@ -1342,7 +1337,6 @@ a[aria-expanded="false"] img{
   color: #2476D5; 
   line-height: 20px;
   font-size: 14px;
-  font-family: "Lato";
   margin: 0px 0px 40px 0px;
 }
 .extra-info + p a{
@@ -1406,9 +1400,7 @@ a[aria-expanded="false"] img{
   color: #666;
   font-size: 16px;
   line-height: 24px;
-  margin: 0px 0px;
-  font-family: "Lato"
-}
+  margin: 0px 0px;}
 .panel .panel-body .panel .panel-title{
   padding: 20px 60px;
   margin: 0px 0px;
@@ -1446,7 +1438,6 @@ a[aria-expanded="false"] img{
   font-size: 16px;
   line-height: 24px;
   margin: 0px 0px;
-  font-family: "Lato";
 }
 #main div.container .panel .panel-body .panel .panel-body > div{
   padding: 0px 0px 20px 0px;
@@ -1638,7 +1629,6 @@ a[aria-expanded="false"] img{
   margin-left  : -2em;
   line-height  : 1.5em;
   font-weight: normal;
-  font-family: "Lato";
   font-size: 16px;
 }
 .checklist input[type=checkbox]:not(old) + label > span,
@@ -1724,7 +1714,6 @@ a[aria-expanded="false"] img{
   background: transparent;
   border-radius: 0px;
   border: 0px;
-  font-family: "Lato";
   padding: 0px 0px;
   margin: 0px 0px;
   color: #267fa7;
@@ -1749,7 +1738,6 @@ a[aria-expanded="false"] img{
 }
 #adm-step-05 #main div.container h5{
   font-size: 20px;
-  font-family: "Lato";
   margin: 0px 0px 40px 0px;
 }
 #adm-step-05 #main div.container .btn-primary{
@@ -1773,10 +1761,23 @@ a[aria-expanded="false"] img{
   margin: 0px 0px 40px 0px;
 }
 #generica p{
-  font-family: "Lato"
+  padding: 10px 0px;
 }
 #generica #main{
   margin: 0px 0px 60px 0px;
+}
+#generica .center.intro h2 {
+  color: #4A4A4A;
+  text-transform: uppercase;
+  line-height: 32px;
+  padding: 50px 0px 30px;
+  font-weight: 600;
+}
+#desc-departamento img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
 }
 #generica .btn-primary{
   background: transparent;
@@ -1840,7 +1841,6 @@ a[aria-expanded="false"] img{
   margin: 35px 0px 14px 0px;
 }
 #contacto .panel-body{
-  font-family: "Lato";
 }
 .ubicacion p:nth-of-type(1){
   margin: 14px 0px 0px 0px;
@@ -2023,9 +2023,7 @@ a[aria-expanded="false"] img{
 .contenido-cuerpo{
   padding: 30px 30px;
 }
-.page #main{
-  margin: 50px 0px 0px 0px;
-}
+
 .info-noticia{
   margin: 0px 0px 30px 0px;
 }
@@ -2473,7 +2471,7 @@ a[aria-expanded="false"] img{
     padding-top: 5px;
   }
   #extra .taller div span {
-    margin: 20%;
+    margin: 25% auto;
   }
   .noticia .img-noticia img {
     margin: 10% 0px 0px 0px;
@@ -2488,9 +2486,6 @@ a[aria-expanded="false"] img{
 }
 #carrusel{
   margin: 68px 0px 0px 0px;
-}
-.page #main {
-  margin: 70px 0px 0px 0px;
 }
 .titulo-seccion {
   height: 100px;
@@ -2646,7 +2641,7 @@ a[aria-expanded="false"] img{
   top: 10%;
 }
 #extra .taller div span{
-  margin: 25% auto;
+  margin: 30% auto;
 }
 #extra .ver-todos, .block-noticias .ver-todos {
     padding: 10px;
@@ -3027,13 +3022,14 @@ a[aria-expanded="false"] img{
   #ciclos #main .panel-group .panel-body {
     padding: 20px 20px;
 }
-
-#btn-slider {
+  #btn-slider {
     font-size: 18px;
     padding: 10px 10px;
     max-width: 80%;
-}
-
+  }
+  #generica .center.intro h2 {
+    line-height: 25px;
+  }
 
 
 }
