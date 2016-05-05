@@ -758,8 +758,8 @@ a {
   color: #FFF;
 }
 #calendario .evento{
-  background: #397339;
-  color: #FFF;
+  background: #00ABC5;
+  color: #4A4A4A;
   margin: 0px 0px 15px 0px;
 }
 #calendario .evento:hover{
@@ -790,7 +790,7 @@ a {
   padding-right: 5px; /* ¡¡¡AGREDADO POR RANDY!!! */
 }
 #calendario .event-desc{
-  background: #418242;
+  background: #fff;
   padding: 10px 15px;
 }
 #calendario .event-desc h4{
@@ -2157,9 +2157,101 @@ a[aria-expanded="false"] img{
 
 
 /* ATRIBUTOS PARA DEPARTAMENTO DE INGLÉS */
+.departamento-page .noti-principal h4{
+  margin-top: 20px;
+}
 #departamento{
   background-color: transparent;
-  padding-bottom: 100px;
+}
+#departamento #main .img-seccion{
+  margin-bottom: 50px;
+}
+#departamento #main .bajada {
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 20px;
+}
+.departamento-page #buscador-guias{
+  margin-bottom: 50px;
+}
+#departamento #proyecto-educativo{
+  margin-bottom: 100px;
+}
+#proyecto-educativo .titulo-reglamentos {
+    font-weight: 600;
+    padding: 24px 10px 24px 50px;
+    margin: 0px;
+    color: #FFF;
+    background: #385677;
+    font-size: 20px;
+    line-height: 20px;
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 100;
+    margin-top: 50px;
+}
+#proyecto-educativo .panel-body {
+  background-color: #EEE;
+  padding: 30px 70px;
+}
+#proyecto-educativo li {
+    padding: 15px 0px;
+}
+#proyecto-educativo .panel-body p {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    display: inline-block;
+    margin-top: 8px;
+}
+#proyecto-educativo .btn-descargar {
+    background-color: transparent;
+    border: 2px solid #00ABC5;
+    color: #00ABC5;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 30px;
+    position: relative;
+    border-radius: 0;
+}
+#proyecto-educativo .btn-descargar:hover{
+  background-color: #00ABC5;
+  color: #fff;
+}
+.info-ficha-taller {
+  margin-bottom: 30px;
+}
+.info-ficha-taller .panel-body{
+  background-color: #eee;
+  padding: 30px 70px;
+}
+.info-ficha-taller h2 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #385677;
+    padding: 15px 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.info-ficha-taller h3 {
+    color: #385677;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.info-ficha-taller .horario-taller{
+    color: #4A4A4A;
+    padding: 15px;
+    background-color: #fff;
+    font-size: 13px;
+}
+.info-ficha-taller .horario-taller p{
+    font-weight: 600;
+}
+.info-ficha-taller .horario-taller .dia-horario{
+  padding-bottom: 10px;
 }
 .intro-page {
   padding: 70px 0px 50px 0px;
@@ -2196,7 +2288,20 @@ a[aria-expanded="false"] img{
 #departamento .cuerpo .contenido-cuerpo {
   padding: 30px;
 }
-
+.btn-azul{
+  background-color: transparent;
+  color: #00ABC5;
+  border: 2px solid #00ABC5;
+  border-radius: 0;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 15px;
+}
+.btn-azul:hover{
+  background-color: #00ABC5;
+  color: #fff;
+  border-color: #00ABC5;
+}
 #buscador-guias {
   background-color: #385677;
   margin-top: 70px;
@@ -2309,7 +2414,7 @@ a[aria-expanded="false"] img{
   border-radius: 0;
 }
 #accordion-guias .btn-descargar:hover{
-  background-color: #3A733A;
+  background-color: #385677;
 }
 
 
@@ -2492,7 +2597,7 @@ a[aria-expanded="false"] img{
     left: 0;
 }
 .talleres#galeria .ver-album:hover {
-  background-color: #3A733A;
+  background-color: #385677;
 }
 
 .step.page .panel{
@@ -2526,6 +2631,9 @@ a[aria-expanded="false"] img{
 .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus{
   background-color: #385677;
   border-color: #385677;
+}
+#infra #main .img-seccion {
+  margin-bottom: 30px;
 }
 
 
@@ -3115,6 +3223,15 @@ a[aria-expanded="false"] img{
     text-align: center;
     line-height: 22px;
 }
+#proyecto-educativo .panel-body {
+    padding: 10px 15px;
+}
+#proyecto-educativo .btn-descargar {
+    padding: 6px 15px;
+}
+.info-ficha-taller .panel-body{
+  padding: 15px;
+}
 
 
 }
@@ -3204,6 +3321,9 @@ a[aria-expanded="false"] img{
   }
   #lugares .dropdown-toggle span {
     top: 17px;
+  }
+  .btn-azul {
+    width: 100%;
   }
 
 }
